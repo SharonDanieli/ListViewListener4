@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="heshbonitOrHandasit">
+        <item>חשבונית</item>
+        <item>הנדסית</item>
+    </string-array>
+    <string name="app_name">ListView</string>
+</resources>
