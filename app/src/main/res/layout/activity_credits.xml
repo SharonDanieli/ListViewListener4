@@ -7,18 +7,16 @@
     <TextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:text="tv" />
+        android:layout_height="450dp"
+        android:gravity="center"
+        android:textSize="30dp" />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to the list"
-        android:onClick="ToActivity2"/>
+        android:gravity="bottom|right"
+        android:onClick="ToActivity2"
+        android:text="Back to the list" />
 </LinearLayout>
